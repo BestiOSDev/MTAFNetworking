@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		20D90A0D356A92A50BF3B944DB989A0D /* MTAFNetworking */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 017435A2F7273A5BBF3DA7BFBDE280E9 /* Build configuration list for PBXAggregateTarget "MTAFNetworking" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MTAFNetworking;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B761CDD6794D2CFEF86A9A3B6E0F882 /* Pods-MTAFNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A56E2608EF0721FB211B57D8C9197E /* Pods-MTAFNetworking_Tests-dummy.m */; };
+		35B6AE9AA90CAF8F182A6C363BAEA61E /* Pods-MTAFNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BB7C9BFEDB8FFC86E1DBAE178B757E /* Pods-MTAFNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C64F9CAA3D8E0C03C899A7C3C817A8 /* Pods-MTAFNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE15FC0CC4CD64F89CAC4BAFB50E87D /* Pods-MTAFNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BDC03C6B78D1F1F42E2E7F07A601A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4E3D117B0E6647DB65F08B00C87B2B57 /* Pods-MTAFNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3059F340D9EDBBC84507F1E81EC2F509 /* Pods-MTAFNetworking_Example-dummy.m */; };
+		65DDA3EB743051172FBA64D769D23AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ADF631288AAA79AEE92026957CAE17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D90A0D356A92A50BF3B944DB989A0D;
+			remoteInfo = MTAFNetworking;
+		};
+		A61A1B421365865A184ADF2A9A1CF129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB853EC20F50EC693B42FAB60B5899E8;
+			remoteInfo = "Pods-MTAFNetworking_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00ECCD0F50CACDEE8B49FEA9FA97E682 /* Pods-MTAFNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTAFNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		05DC80DB5DBBE7158EB5745ACDD8191E /* Pods-MTAFNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTAFNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15E59A8CDF8A93910D723B7288FCE43A /* Pods-MTAFNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTAFNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17E240CB1447D45B07F796051EE37F5E /* Pods-MTAFNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTAFNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		192ABEDF1E43FB158D5ED2D5F2362CB2 /* MTAFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTAFNetworking.framework; path = MTAFNetworking/Framework/MTAFNetworking.framework; sourceTree = "<group>"; };
+		3059F340D9EDBBC84507F1E81EC2F509 /* Pods-MTAFNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTAFNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		322C47AF8C09690286BB8E8DEAD69881 /* Pods-MTAFNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTAFNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		56DEB0BC50AA8B7AA860784C055AAA5B /* Pods-MTAFNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTAFNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		633C72FEEEF488610B092E738AA39A3C /* Pods-MTAFNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTAFNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CC61E34CB6B3FF319677B64B693B4AA /* Pods-MTAFNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTAFNetworking_Example-Info.plist"; sourceTree = "<group>"; };
+		717C0637BF587AFC15E75DEDD50B09C7 /* Pods-MTAFNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTAFNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A423525B22AE25AA506D5D774B2B4E4 /* Pods_MTAFNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTAFNetworking_Example.framework; path = "Pods-MTAFNetworking_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE15FC0CC4CD64F89CAC4BAFB50E87D /* Pods-MTAFNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTAFNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		8F00F2013994F6EBBCD2D84B0C48A6E2 /* Pods-MTAFNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTAFNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		92BB7C9BFEDB8FFC86E1DBAE178B757E /* Pods-MTAFNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTAFNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D640E8C9B96AC39E8F910BA195710D /* Pods-MTAFNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTAFNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A47DD20A13747D4A6C0C485D5047A904 /* Pods-MTAFNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTAFNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		B44F0EE8A52C9EBEE17647E3B8391E5D /* Pods_MTAFNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTAFNetworking_Tests.framework; path = "Pods-MTAFNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ADD843A3C76434A4922C2250840975 /* MTAFNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTAFNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8476EE109E6E37DCE84988F6E2DF0D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D23746D1B7AE2CC08713FB56ADF1F3E4 /* MTAFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTAFNetworking.xcconfig; sourceTree = "<group>"; };
+		E1A56E2608EF0721FB211B57D8C9197E /* Pods-MTAFNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTAFNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC2EF4630B407B993ED01BC7027A455E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550166B18B42F173C6ACAA309C65E0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DDA3EB743051172FBA64D769D23AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78816221017B32DD91AD01C15E9C90D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BDC03C6B78D1F1F42E2E7F07A601A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0533403110C4743C996917AC47BD2F9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23746D1B7AE2CC08713FB56ADF1F3E4 /* MTAFNetworking.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTAFNetworking";
+			sourceTree = "<group>";
+		};
+		1A850268CA759BA71E55FC592CD6E88C /* Pods-MTAFNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A47DD20A13747D4A6C0C485D5047A904 /* Pods-MTAFNetworking_Example.modulemap */,
+				05DC80DB5DBBE7158EB5745ACDD8191E /* Pods-MTAFNetworking_Example-acknowledgements.markdown */,
+				633C72FEEEF488610B092E738AA39A3C /* Pods-MTAFNetworking_Example-acknowledgements.plist */,
+				3059F340D9EDBBC84507F1E81EC2F509 /* Pods-MTAFNetworking_Example-dummy.m */,
+				6CC61E34CB6B3FF319677B64B693B4AA /* Pods-MTAFNetworking_Example-Info.plist */,
+				8EE15FC0CC4CD64F89CAC4BAFB50E87D /* Pods-MTAFNetworking_Example-umbrella.h */,
+				17E240CB1447D45B07F796051EE37F5E /* Pods-MTAFNetworking_Example.debug.xcconfig */,
+				717C0637BF587AFC15E75DEDD50B09C7 /* Pods-MTAFNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-MTAFNetworking_Example";
+			path = "Target Support Files/Pods-MTAFNetworking_Example";
+			sourceTree = "<group>";
+		};
+		2D0ABF9EF1F3DEDA806084C389816948 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB373E201F9B3CF30094F154AAF65322 /* MTAFNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9344518E0DC576F31497A380BBDEDEA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EF4630B407B993ED01BC7027A455E /* LICENSE */,
+				C4ADD843A3C76434A4922C2250840975 /* MTAFNetworking.podspec */,
+				C8476EE109E6E37DCE84988F6E2DF0D2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		972E953FAF8455DBC635B6739F44CAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A423525B22AE25AA506D5D774B2B4E4 /* Pods_MTAFNetworking_Example.framework */,
+				B44F0EE8A52C9EBEE17647E3B8391E5D /* Pods_MTAFNetworking_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB373E201F9B3CF30094F154AAF65322 /* MTAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E29AFD345CD2FD50662D3C3DAB804D4A /* Frameworks */,
+				9344518E0DC576F31497A380BBDEDEA8 /* Pod */,
+				0533403110C4743C996917AC47BD2F9A /* Support Files */,
+			);
+			name = MTAFNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2D0ABF9EF1F3DEDA806084C389816948 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				972E953FAF8455DBC635B6739F44CAD1 /* Products */,
+				E77F8B15700BEEB719EF6EA466201545 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29AFD345CD2FD50662D3C3DAB804D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				192ABEDF1E43FB158D5ED2D5F2362CB2 /* MTAFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E77F8B15700BEEB719EF6EA466201545 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A850268CA759BA71E55FC592CD6E88C /* Pods-MTAFNetworking_Example */,
+				EA3F39515B4C99CD2195FB0CC34259DD /* Pods-MTAFNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA3F39515B4C99CD2195FB0CC34259DD /* Pods-MTAFNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F00F2013994F6EBBCD2D84B0C48A6E2 /* Pods-MTAFNetworking_Tests.modulemap */,
+				56DEB0BC50AA8B7AA860784C055AAA5B /* Pods-MTAFNetworking_Tests-acknowledgements.markdown */,
+				15E59A8CDF8A93910D723B7288FCE43A /* Pods-MTAFNetworking_Tests-acknowledgements.plist */,
+				E1A56E2608EF0721FB211B57D8C9197E /* Pods-MTAFNetworking_Tests-dummy.m */,
+				322C47AF8C09690286BB8E8DEAD69881 /* Pods-MTAFNetworking_Tests-Info.plist */,
+				92BB7C9BFEDB8FFC86E1DBAE178B757E /* Pods-MTAFNetworking_Tests-umbrella.h */,
+				00ECCD0F50CACDEE8B49FEA9FA97E682 /* Pods-MTAFNetworking_Tests.debug.xcconfig */,
+				A1D640E8C9B96AC39E8F910BA195710D /* Pods-MTAFNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-MTAFNetworking_Tests";
+			path = "Target Support Files/Pods-MTAFNetworking_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABE4689939919BEC159C98C90F6CCCAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C64F9CAA3D8E0C03C899A7C3C817A8 /* Pods-MTAFNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB769F5B0E89ED798262DF935CE9304 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B6AE9AA90CAF8F182A6C363BAEA61E /* Pods-MTAFNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54E831507D758CAABD83D202CE8E6243 /* Pods-MTAFNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC5FB7F3BE8FD5E518F5BA4E407CCCC /* Build configuration list for PBXNativeTarget "Pods-MTAFNetworking_Tests" */;
+			buildPhases = (
+				DCB769F5B0E89ED798262DF935CE9304 /* Headers */,
+				676D1B6403F2317475F4FB2B3233B44B /* Sources */,
+				550166B18B42F173C6ACAA309C65E0B9 /* Frameworks */,
+				FEA43D1B5E9CF5C6F3F43BFA3D0BD9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F642AB0FC1DE5F13140F55AE5133C5A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MTAFNetworking_Tests";
+			productName = "Pods-MTAFNetworking_Tests";
+			productReference = B44F0EE8A52C9EBEE17647E3B8391E5D /* Pods_MTAFNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB853EC20F50EC693B42FAB60B5899E8 /* Pods-MTAFNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A379E4A6F503AA2D2260CD33B51432A /* Build configuration list for PBXNativeTarget "Pods-MTAFNetworking_Example" */;
+			buildPhases = (
+				ABE4689939919BEC159C98C90F6CCCAD /* Headers */,
+				15DEC7E05D56622B150ECC6691DCE5ED /* Sources */,
+				78816221017B32DD91AD01C15E9C90D4 /* Frameworks */,
+				BB51FC5B0FC8DF4DA5FB43E531B3E6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF51FE155402CCE50FD81EEF195B28A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MTAFNetworking_Example";
+			productName = "Pods-MTAFNetworking_Example";
+			productReference = 8A423525B22AE25AA506D5D774B2B4E4 /* Pods_MTAFNetworking_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 972E953FAF8455DBC635B6739F44CAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D90A0D356A92A50BF3B944DB989A0D /* MTAFNetworking */,
+				EB853EC20F50EC693B42FAB60B5899E8 /* Pods-MTAFNetworking_Example */,
+				54E831507D758CAABD83D202CE8E6243 /* Pods-MTAFNetworking_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB51FC5B0FC8DF4DA5FB43E531B3E6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA43D1B5E9CF5C6F3F43BFA3D0BD9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DEC7E05D56622B150ECC6691DCE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3D117B0E6647DB65F08B00C87B2B57 /* Pods-MTAFNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676D1B6403F2317475F4FB2B3233B44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B761CDD6794D2CFEF86A9A3B6E0F882 /* Pods-MTAFNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF51FE155402CCE50FD81EEF195B28A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTAFNetworking;
+			target = 20D90A0D356A92A50BF3B944DB989A0D /* MTAFNetworking */;
+			targetProxy = 8ADF631288AAA79AEE92026957CAE17F /* PBXContainerItemProxy */;
+		};
+		F642AB0FC1DE5F13140F55AE5133C5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MTAFNetworking_Example";
+			target = EB853EC20F50EC693B42FAB60B5899E8 /* Pods-MTAFNetworking_Example */;
+			targetProxy = A61A1B421365865A184ADF2A9A1CF129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E91CAD5F3A61F183546B1DF5904FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23746D1B7AE2CC08713FB56ADF1F3E4 /* MTAFNetworking.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4319CE33B092BF31E3FCDEFE56E2ABFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E240CB1447D45B07F796051EE37F5E /* Pods-MTAFNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTAFNetworking_Example/Pods-MTAFNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTAFNetworking_Example/Pods-MTAFNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D6F5A793F337C9E64A0C864E7AB83CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23746D1B7AE2CC08713FB56ADF1F3E4 /* MTAFNetworking.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B5D0440FDEABF4EE39AEEE9CE861C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717C0637BF587AFC15E75DEDD50B09C7 /* Pods-MTAFNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTAFNetworking_Example/Pods-MTAFNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTAFNetworking_Example/Pods-MTAFNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D39E5E9AC054E6B5126E08420DB7EDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00ECCD0F50CACDEE8B49FEA9FA97E682 /* Pods-MTAFNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTAFNetworking_Tests/Pods-MTAFNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTAFNetworking_Tests/Pods-MTAFNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E55041D4993BD3018D43E7EA4D79BAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D640E8C9B96AC39E8F910BA195710D /* Pods-MTAFNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTAFNetworking_Tests/Pods-MTAFNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTAFNetworking_Tests/Pods-MTAFNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017435A2F7273A5BBF3DA7BFBDE280E9 /* Build configuration list for PBXAggregateTarget "MTAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6F5A793F337C9E64A0C864E7AB83CB /* Debug */,
+				02E91CAD5F3A61F183546B1DF5904FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC5FB7F3BE8FD5E518F5BA4E407CCCC /* Build configuration list for PBXNativeTarget "Pods-MTAFNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39E5E9AC054E6B5126E08420DB7EDED /* Debug */,
+				E55041D4993BD3018D43E7EA4D79BAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A379E4A6F503AA2D2260CD33B51432A /* Build configuration list for PBXNativeTarget "Pods-MTAFNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4319CE33B092BF31E3FCDEFE56E2ABFF /* Debug */,
+				C0B5D0440FDEABF4EE39AEEE9CE861C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

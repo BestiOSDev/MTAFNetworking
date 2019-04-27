@@ -1,0 +1,16 @@
+PODS:
+  - MTAFNetworking (0.1.1)
+
+DEPENDENCIES:
+  - MTAFNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  MTAFNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTAFNetworking: 45e91205b61e3f2f2261dd535a69d7f0abd78d85
+
+PODFILE CHECKSUM: 3c1365ce8f44167d59b5f06136c39d627f336411
+
+COCOAPODS: 1.6.1
