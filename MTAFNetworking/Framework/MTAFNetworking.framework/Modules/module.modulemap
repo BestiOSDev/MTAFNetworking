@@ -1,0 +1,6 @@
+framework module MTAFNetworking {
+  umbrella header "MTAFNetworking.h"
+
+  export *
+  module * { export * }
+}

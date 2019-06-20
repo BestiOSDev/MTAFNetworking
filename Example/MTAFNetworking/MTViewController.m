@@ -7,7 +7,7 @@
 //
 
 #import "MTViewController.h"
-#import "MTAFNetworking.h"
+#import <MTAFNetworking/MTAFNetworking.h>
 
 @interface MTViewController ()
 
