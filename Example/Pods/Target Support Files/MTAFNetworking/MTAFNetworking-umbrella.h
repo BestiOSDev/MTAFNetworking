@@ -12,12 +12,12 @@
 
 #import "AFCompatibilityMacros.h"
 #import "AFHTTPSessionManager.h"
-#import "AFNetworking.h"
 #import "AFNetworkReachabilityManager.h"
 #import "AFSecurityPolicy.h"
 #import "AFURLRequestSerialization.h"
 #import "AFURLResponseSerialization.h"
 #import "AFURLSessionManager.h"
+#import "MTNetworking.h"
 
 FOUNDATION_EXPORT double MTAFNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char MTAFNetworkingVersionString[];

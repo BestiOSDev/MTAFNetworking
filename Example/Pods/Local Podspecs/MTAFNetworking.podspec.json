@@ -1,6 +1,6 @@
 {
   "name": "MTAFNetworking",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "MTAFNetworking.framework",
   "description": "对AFNetworking二进制化提高编译速度",
   "homepage": "https://github.com/BestiOSDev/MTAFNetworking",
@@ -12,15 +12,14 @@
     "ZhaoBingDong": "dzb8818082@163.com"
   },
   "source": {
-    "git": "git@github.com:BestiOSDev/MTNetworking",
-    "tag": "0.1.1"
+    "git": "https://github.com/BestiOSDev/MTAFNetworking.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "ios": {
-    "vendored_frameworks": "MTAFNetworking/Framework/MTAFNetworking.framework"
-  },
+  "source_files": "MTAFNetworking/Classes/**/*",
+  "public_header_files": "MTAFNetworking/Classes/**/*.h",
   "frameworks": [
     "MobileCoreServices",
     "CoreGraphics",
